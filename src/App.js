@@ -17,12 +17,12 @@ function App() {
       <div className='all'>
       <div>
       <h2>Creating New Patient</h2>
-      <label className='fading'>Jump to</label><br></br>
-      <div>&#8627; Identifiers</div><br></br>
-      <div>&#8627; Personal Details</div>
-      <div>&#8627; Domicile Details</div>
-      <div>&#8627; Residence Details</div>
-      <div>&#8627; Other Details</div>                         
+      <label className='fading'>Jump to</label>
+      <div >&#8627; <a href="#Identifiers">Identifiers</a></div>
+      <div>&#8627; <a href="#Personal">Personal Details</a></div>
+      <div>&#8627; <a href="#Domicile">Domicile Details</a></div>
+      <div>&#8627; <a href="#Residence">Residence Details</a></div>
+      <div>&#8627; <a href="#Other">Other Details</a></div>                         
       </div>
       <div>
 
@@ -40,7 +40,7 @@ function App() {
 
 
       <div>
-      <h4>Identifiers</h4>
+      <h4 id='Identifiers'>Identifiers</h4>
       <label className='fading'>All fields are required unless the marked options</label><br></br>
       <div className='background'><br></br>
         <label>UPID</label><br></br>
@@ -61,7 +61,7 @@ function App() {
 
 
       <div>
-      <h4>Person Details</h4>
+      <h4 id='Person'>Person Details</h4>
       <label className='fading'>All fields are required unless the marked options</label><br></br>
       <div className='background'><br></br>
       <label>Surname</label><br></br><br></br>
@@ -99,7 +99,7 @@ document.getElementById("current_date").innerHTML = month + "/" + day + "/" + ye
       </div>
 
       <div>
-      <h4>Domicile details</h4>
+      <h4 id='Domicile'>Domicile details</h4>
       <label className='fading'>All fields are required unless the marked options</label><br></br>
       <div className='background'><br></br>
       <label>Country</label><br></br>
@@ -118,7 +118,7 @@ document.getElementById("current_date").innerHTML = month + "/" + day + "/" + ye
       </div>
 
       <div>
-      <h4>Residence details</h4>
+      <h4 id='Residence'>Residence details</h4>
       <label className='fading'>All fields are required unless the marked options</label><br></br>
       <div className='background'><br></br>
       <label>Country</label><br></br>
@@ -151,7 +151,7 @@ document.getElementById("current_date").innerHTML = month + "/" + day + "/" + ye
       </div>
 
       <div>
-      <h4>Other details</h4>
+      <h4 id='Other'>Other details</h4>
       <label className='fading'>All fields are required unless the marked options</label><br></br>
       <div className='background'><br></br>
       <label>Phone</label><br></br>
