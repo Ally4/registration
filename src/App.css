@@ -26,6 +26,14 @@
  margin-top: 10px; 
 }
 
+.all {
+  display: flex;
+  justify-content: space-around;
+}
+
+.background {
+  background-color: grey;
+}
 
 
 
