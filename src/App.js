@@ -68,14 +68,7 @@ function App() {
         <input></input><br></br><br></br>
         <label>Post-names</label><br></br><br></br>
         <input></input><br></br>
-        <div className='dateAndSex'>
-        {/* <script>
-date = new Date();
-year = date.getFullYear();
-month = date.getMonth() + 1;
-day = date.getDate();
-document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
-</script> */}
+        <div className='dateAndGender'>
         </div>
         <label className='fading'>Vital Status</label><br></br>
         <select name="selection" id="type"><br></br>
